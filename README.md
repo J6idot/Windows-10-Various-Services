@@ -42,6 +42,7 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | Visible Service Name | Service Name | Start Type | Description |
 | --- | --- | --- | --- |
 | State Repository Service | StateRepository | Manual | I highly recommend that you enable this. Without it, windows is pretty much unusable. |
+|  | camsvc | Manual | Fixes the missing name in settings app and probably fixes some other stuff. |
 
 ## WLAN
 | Visible Service Name | Service Name | Start Type | Description |
