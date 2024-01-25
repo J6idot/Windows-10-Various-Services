@@ -15,12 +15,18 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | User Manager | UserManager | Automatic | ???? |
 | User Profile Service | ProfSvc | Automatic | ???? |
 
+## Audio
+| Visible Service Name | Service Name | Start Type | Description |
+| --- | --- | --- | --- |
+| Windows Audio | Audiosrv | Automatic | ???? |
+| Windows Audio Endpoint Builder | AudioEndpointBuilder | Manual | ???? |
+
 ## Display
 | Visible Service Name | Service Name | Start Type | Description |
 | --- | --- | --- | --- |
 | Display Enhancement Service | DisplayEnhancementService | Manual | Used for controlling the brightness. |
 | Sensors Service | SensorService | Manual | ???? |
-| | SensrSvc | Manual | Used for autobrightess. |
+| | SensrSvc | Manual | Used for autobrightness. |
 
 ## HID
 | Visible Service Name | Service Name | Start Type | Description |
