@@ -41,8 +41,15 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 ## UWP
 | Visible Service Name | Service Name | Start Type | Description |
 | --- | --- | --- | --- |
+| AppX Deployment Service (AppXSVC) | AppXSvc | Manual | Required to run downloaded UWP apps. |
+| Client License Service (ClipSVC) | ClipSvc | Manual | Same as AppXSvc. |
 | State Repository Service | StateRepository | Manual | I highly recommend that you enable this. Without it, windows is pretty much unusable. |
 |  | camsvc | Manual | Fixes the missing name in settings app and probably fixes some other stuff. |
+
+## Microsoft Store
+| Visible Service Name | Service Name | Start Type | Description |
+| --- | --- | --- | --- |
+| Microsoft Store Install Service | InstallService | Manual | Required or else the MS Store crashes. |
 
 ## WLAN
 | Visible Service Name | Service Name | Start Type | Description |
