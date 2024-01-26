@@ -10,10 +10,10 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | CoreMessaging | CoreMessagingRegistrar | Automatic | ???? |
 | DCOM Server Process Launcher | DcomLaunch | Automatic | Every service depends on this. |
 | Local Session Manager | LSM | Automatic | ???? |
-| Remote Procedure Call (RPC) | RpcSs | Automatic | ???? |
-| RPC Endpoint Mapper | RpcEptMapper | Automatic | ???? |
+| Remote Procedure Call (RPC) | RpcSs | Automatic | Same as DcomLaunch. |
+| RPC Endpoint Mapper | RpcEptMapper | Automatic | Same as DcomLaunch. |
 | User Manager | UserManager | Automatic | ???? |
-| User Profile Service | ProfSvc | Automatic | ???? |
+| User Profile Service | ProfSvc | Automatic | Needed to load the user profile. |
 
 ## Audio
 | Visible Service Name | Service Name | Start Type | Description |
