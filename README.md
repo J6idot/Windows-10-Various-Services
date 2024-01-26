@@ -55,11 +55,11 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | Visible Service Name | Service Name | Start Type | Description |
 | --- | --- | --- | --- |
 | DHCP Client | Dhcp | Automatic | Used for establishing an IP Address automatically. |
-| DNS Client | Dnscache | Automatic | Used for establishing the DNS client automatically. |
-| Network Connected Devices Auto-Setup | NcdAutoSetup | Manual | ???? |
+| DNS Client | Dnscache | Automatic | Used for establishing the DNS address automatically. |
+| Network Connected Devices Auto-Setup | NcdAutoSetup | Manual | Depends on WlanSvc. |
 | Network List Service | netprofm | Manual | ???? |
 | Network Location Awareness | NlaSvc | Automatic | Same as EventLog. |
 | Network Store Interface Service | nsi | Automatic | ???? |
 | Windows Event Log | EventLog | Automatic | This apparently makes the WIFI logo appear on the taskbar. |
-| WLAN AutoConfig | WlanSvc | Automatic | ???? |
+| WLAN AutoConfig | WlanSvc | Automatic | Without this service, you can't view the networks available. |
 
