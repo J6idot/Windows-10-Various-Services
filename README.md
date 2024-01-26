@@ -26,7 +26,7 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | --- | --- | --- | --- |
 | Display Enhancement Service | DisplayEnhancementService | Manual | Used for controlling the brightness. |
 | Sensors Service | SensorService | Manual | ???? |
-| | SensrSvc | Manual | Used for autobrightness. |
+| Sensor Monitoring Service | SensrSvc | Manual | Used for autobrightness. |
 
 ## HID
 | Visible Service Name | Service Name | Start Type | Description |
@@ -42,9 +42,9 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | Visible Service Name | Service Name | Start Type | Description |
 | --- | --- | --- | --- |
 | AppX Deployment Service (AppXSVC) | AppXSvc | Manual | Required to run downloaded UWP apps. |
+| Capability Access Manager Service | camsvc | Manual | Fixes the missing name in settings app and probably fixes some other stuff. |
 | Client License Service (ClipSVC) | ClipSvc | Manual | Same as AppXSvc. |
 | State Repository Service | StateRepository | Manual | I highly recommend that you enable this. Without it, windows is pretty much unusable. |
-|  | camsvc | Manual | Fixes the missing name in settings app and probably fixes some other stuff. |
 
 ## Microsoft Store
 | Visible Service Name | Service Name | Start Type | Description |
@@ -58,8 +58,8 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | DNS Client | Dnscache | Automatic | Used for establishing the DNS client automatically. |
 | Network Connected Devices Auto-Setup | NcdAutoSetup | Manual | ???? |
 | Network List Service | netprofm | Manual | ???? |
+| Network Location Awareness | NlaSvc | Automatic | Same as EventLog. |
 | Network Store Interface Service | nsi | Automatic | ???? |
 | Windows Event Log | EventLog | Automatic | This apparently makes the WIFI logo appear on the taskbar. |
 | WLAN AutoConfig | WlanSvc | Automatic | ???? |
-| | NlaSvc | Automatic | Same as EventLog. |
 
