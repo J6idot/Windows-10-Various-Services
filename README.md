@@ -8,7 +8,7 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | --- | --- | --- | --- |
 | Background Tasks Infrastructure Service | BrokerInfrastructure | Automatic | ???? |
 | CoreMessaging | CoreMessagingRegistrar | Automatic | ???? |
-| DCOM Server Process Launcher | DcomLaunch | Automatic | ???? |
+| DCOM Server Process Launcher | DcomLaunch | Automatic | Every service depends on this. |
 | Local Session Manager | LSM | Automatic | ???? |
 | Remote Procedure Call (RPC) | RpcSs | Automatic | ???? |
 | RPC Endpoint Mapper | RpcEptMapper | Automatic | ???? |
