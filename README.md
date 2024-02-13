@@ -60,6 +60,7 @@ Welcome to my (sort of) little project on figuring out what services are needed 
 | Network List Service | netprofm | Manual | ???? |
 | Network Location Awareness | NlaSvc | Automatic | Same as EventLog. |
 | Network Store Interface Service | nsi | Automatic | ???? |
+| Windows Connection Manager | Wcmsvc | Automatic | Doesn't detect any networks if this isn't enabled. |
 | Windows Event Log | EventLog | Automatic | This apparently makes the WIFI logo appear on the taskbar. |
 | WLAN AutoConfig | WlanSvc | Automatic | Without this service, you can't view the networks available. |
 
